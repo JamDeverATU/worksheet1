@@ -1,20 +1,25 @@
-﻿namespace worksheet1
+﻿namespace Q1c
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
-            PrintIntegersFor();
-
+            PrintIntegersDo();
         }
 
-        static void PrintIntegersFor()
+        static void PrintIntegersDo()
         {
-            for (int i = 40; i < 60; i++)
+            int i = 40;
+            do
             {
                 Console.WriteLine(i);
+                i++;
             }
+            while (i < 60);
+           
         }
+
+
+
     }
 }
